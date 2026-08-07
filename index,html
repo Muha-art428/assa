@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASSA - Learn, Connect, Create & Grow</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f9ff;
+      color: #102a43;
+    }
+
+    header {
+      background: #0b3d91;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .tagline {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    main {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    .welcome {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      padding: 40px 25px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .welcome h1 {
+      color: #0b3d91;
+      margin-bottom: 15px;
+    }
+
+    .welcome p {
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    button {
+      background: #0b3d91;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1769d1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #607d9b;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">ASSA</div>
+    <div class="tagline">Learn • Connect • Create • Grow</div>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h1>Welcome to ASSA</h1>
+
+      <p>
+        A student platform where you can learn, connect with other students,
+        create, teach, and grow together.
+      </p>
+
+      <button>Get Started</button>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 ASSA. Built for students.
+  </footer>
+
+</body>
+</html>
